@@ -1,0 +1,10 @@
+.home{
+    flex:4;
+   
+
+
+}
+.home .homeContainer{
+    display: flex;
+    justify-content: center;
+}

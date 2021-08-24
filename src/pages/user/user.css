@@ -1,0 +1,105 @@
+.user{
+    flex:4;
+    padding: 20px;
+    
+}
+
+.userTitleContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userAddButton{
+    width:80px;
+    border: none;
+    background-color: green;
+    border-radius: 5px;
+    padding: 5px;
+    cursor:pointer;
+
+}
+
+.userContainer{
+    display: flex;
+
+}
+
+
+.userContainer .userLeft{
+    flex:2;
+    box-shadow: 0px 4px 25px -2px rgba(190, 190, 187, 0.979);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 10px 0 0;
+}
+
+.userTitleLeft{
+display: flex;
+margin: 0 0 20px;
+
+}
+
+.userTitleLeft img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userNameLeft span{
+    display: block;
+    margin-left:20px;
+}
+
+
+.userAccountLeft .accountTitle{
+    color: gray;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.accountInfo span{
+    margin: 10px 0;
+    display: block;
+}
+
+
+
+
+.userEdit{
+    flex:3;
+    box-shadow: 0px 4px 25px -2px rgba(190, 190, 187, 0.979);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userEditText .userDatosName{
+    display: block;
+    margin: 10px 0;
+}
+
+.userEditDatos input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.userEditUpdate{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.userEditUpdate img{
+    width: 150px;
+    height: 150px;
+}
+
+.userEditUpdate button{
+    cursor: pointer;
+}

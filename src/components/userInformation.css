@@ -1,0 +1,101 @@
+
+.userInformation{
+    margin: 0 20px;
+    
+}
+.UserLeftTitle{
+    font-size: 1.4rem;
+}
+
+.userInfoContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.userInfoContainer .left{
+    flex: 2;
+    margin-right: 10px;
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 25px 5px rgba(62, 78, 59, 0.13);
+    
+}
+.userInfoContainer .userInfoItem{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.userInfoContainer .userInfoItem img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.userInfoContainer .userInfoItem .userInfoTitle{
+    margin: 0 20px;
+    font-size:14px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.userInfoItem .userInfoTitle  .userInfoCargo{
+    font-weight: 400;
+    color: gray;
+}
+.userInfoContainer .userInfoItem  button{
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgba(231, 230, 227, 0.685);
+    margin: auto;
+    border:none;
+}
+
+.userInfoContainer .UserInfoRight{
+    flex: 4;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 25px 5px rgba(62, 78, 59, 0.13);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap:20px;
+  width: 100%;
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 1rem;
+
+}
+.grid-item.customer{
+    display: flex;
+    align-items: center;
+
+}
+.grid-item.customer img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
