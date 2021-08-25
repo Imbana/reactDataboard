@@ -1,7 +1,7 @@
 import "./user.css"
-import React,{useEffect,useState} from "react"
-import {useParams} from 'react-router-dom'
-import {userRows} from "./../../dummyData"
+// import React,{useEffect,useState} from "react"
+// import {useParams} from 'react-router-dom'
+// import {userRows} from "./../../dummyData"
 const User = () => {
 
 
@@ -46,23 +46,53 @@ const User = () => {
               <h2 className="EditTitle">Edit</h2>
               <div className="userEditDatos">
                 <span className="userDatosName">Username</span>
-                <input type="text" value="hola" id="" className="NombreEdit" />
+                <input
+                  type="text"
+                  name="hola"
+                  placeholder="fsdfad"
+                  size="32"
+                  className="NombreEdit"
+                />
               </div>
               <div className="userEditDatos">
                 <span className="userDatosName">Username</span>
-                <input type="text" value="hola" id="" className="NombreEdit" />
+                <input
+                  type="text"
+                  placeholder="Go Hello"
+                  defaultValue="Goofy"
+                  id=""
+                  className="NombreEdit"
+                />
               </div>{" "}
               <div className="userEditDatos">
                 <span className="userDatosName">Username</span>
-                <input type="text" value="hola" id="" className="NombreEdit" />
+                <input
+                  type="text"
+                  placeholder="GGo go"
+                  defaultValue="Goofy"
+                  id=""
+                  className="NombreEdit"
+                />
               </div>{" "}
               <div className="userEditDatos">
                 <span className="userDatosName">Username</span>
-                <input type="text" value="hola" id="" className="NombreEdit" />
+                <input
+                  type="text"
+                  placeholder="fdsfa"
+                  defaultValue="Goofy"
+                  id=""
+                  className="NombreEdit"
+                />
               </div>{" "}
               <div className="userEditDatos">
                 <span className="userDatosName">Username</span>
-                <input type="text" value="hola" id="" className="NombreEdit" />
+                <input
+                  type="text"
+                  placeholder="fhhsdf"
+                  defaultValue="Goofy"
+                  id=""
+                  className="NombreEdit"
+                />
               </div>
             </div>
             <div className="userEditUpdate">
@@ -70,7 +100,7 @@ const User = () => {
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0V3U_v_HSDcLeiBP9aHyo5iRA6ctu2pWTeg&usqp=CAU"
                 alt=""
               />
-              <button >Update</button>
+              <button>Update</button>
             </div>
           </div>
         </div>

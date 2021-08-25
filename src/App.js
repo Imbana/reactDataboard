@@ -1,7 +1,7 @@
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
 import PageHome from "./pages/PageHome"
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./app.css";
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";

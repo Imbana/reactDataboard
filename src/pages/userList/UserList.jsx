@@ -15,7 +15,7 @@ const UserList = () => {
 
 const handleDelete = (id)=>{
   const newData = data.filter((item)=>(
-    item.id !== id 
+    item.id !== id
   ))
   setData(newData)
 }
@@ -79,6 +79,7 @@ const handleDelete = (id)=>{
           rows={data}
           columns={columns}
           pageSize={5}
+          rowsPerPageOptions={[5]}
           checkboxSelection
           disableSelectionOnClick
         />

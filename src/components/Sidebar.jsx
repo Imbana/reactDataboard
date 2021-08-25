@@ -18,17 +18,17 @@ import {
 
 
 const Sidebar = () => {
-const menu = [
-  {
-    title: "Dashboard",
-    icon1: "AppsIcon",
-    icon2: `<AppsIcon className=\"icon\" />`,
-    icon3: "<AppsIcon className='icon'>",
-    text1: "Home",
-    text2: "Analytics",
-    text3: "Sales",
-  },
-];
+// const menu = [
+//   {
+//     title: "Dashboard",
+//     icon1: "AppsIcon",
+//     icon2: `<AppsIcon className=\"icon\" />`,
+//     icon3: "<AppsIcon className='icon'>",
+//     text1: "Home",
+//     text2: "Analytics",
+//     text3: "Sales",
+//   },
+// ];
 
 
     return (
