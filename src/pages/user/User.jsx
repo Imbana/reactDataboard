@@ -60,7 +60,7 @@ const User = () => {
                   type="text"
                   placeholder="Go Hello"
                   defaultValue="Goofy"
-                  id=""
+                  
                   className="NombreEdit"
                 />
               </div>{" "}
@@ -70,7 +70,7 @@ const User = () => {
                   type="text"
                   placeholder="GGo go"
                   defaultValue="Goofy"
-                  id=""
+                  
                   className="NombreEdit"
                 />
               </div>{" "}
@@ -80,7 +80,7 @@ const User = () => {
                   type="text"
                   placeholder="fdsfa"
                   defaultValue="Goofy"
-                  id=""
+                 
                   className="NombreEdit"
                 />
               </div>{" "}
@@ -90,7 +90,7 @@ const User = () => {
                   type="text"
                   placeholder="fhhsdf"
                   defaultValue="Goofy"
-                  id=""
+                 
                   className="NombreEdit"
                 />
               </div>
